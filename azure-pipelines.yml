@@ -50,7 +50,7 @@ steps:
 
 - template: templates/build.yaml
   parameters:
-  buildConfiguration: 'Release'
+    buildConfiguration: 'Release'
 
 - task : PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
